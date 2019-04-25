@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Patient</display-name>
+  <welcome-file-list>
+    <welcome-file>Mainpage.jsp</welcome-file> 
+  </welcome-file-list>
+  <servlet>
+<description></description>
+<display-name>Controller</display-name>
+<servlet-name>Controller</servlet-name>
+<servlet-class>com.Register.Controller.Controller</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Controller</servlet-name>
+<url-pattern>/Controller</url-pattern>
+</servlet-mapping>
+<servlet>
+<description></description>
+<display-name>LoginController</display-name>
+<servlet-name>LoginController</servlet-name>
+<servlet-class>Login.Controller.LoginController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginController</servlet-name>
+<url-pattern>/LoginController</url-pattern>
+</servlet-mapping>
+<servlet>
+<description></description>
+<display-name>bmicontroller</display-name>
+<servlet-name>bmicontroller</servlet-name>
+<servlet-class>Bmicontroller.bmicontroller</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>bmicontroller</servlet-name>
+<url-pattern>/bmicontroller</url-pattern>
+</servlet-mapping>
+<servlet>
+<description></description>
+<display-name>glucoseController</display-name>
+<servlet-name>glucoseController</servlet-name>
+<servlet-class>glucose.Controller.glucoseController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>glucoseController</servlet-name>
+<url-pattern>/glucoseController</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<description></description>
+<display-name>CountController</display-name>
+<servlet-name>CountController</servlet-name>
+<servlet-class>Count.Controller.CountController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CountController</servlet-name>
+<url-pattern>/CountController</url-pattern>
+</servlet-mapping>
+<servlet>
+<description></description>
+<display-name>DController</display-name>
+<servlet-name>DController</servlet-name>
+<servlet-class>com.Register.Controller.DController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DController</servlet-name>
+<url-pattern>/DController</url-pattern>
+</servlet-mapping>
+</web-app>
